@@ -6,7 +6,7 @@ class App extends React.Component {
   render() {
     return (
       <section>
-        <p>TrybeTunes</p>
+        <h1>TrybeTunes</h1>
         <BrowserRouter>
           <Components />
         </BrowserRouter>
