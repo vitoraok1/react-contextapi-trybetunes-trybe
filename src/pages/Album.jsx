@@ -53,8 +53,7 @@ class Album extends Component {
                 return (
                   <MusicCard
                     key={ song.trackId }
-                    trackName={ song.trackName }
-                    previewUrl={ song.previewUrl }
+                    dataSong={ song }
                   />
                 );
               } return null;
